@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.menu{
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid ;
+}
+li{
+    float: left;
+}
+.lista{
+    list-style-type:none;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+}
+li a:visited{
+    color: blue;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://cutewallpaper.org/23/hospital-background-wallpaper/718911225.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.formato{
+    width: 600px;
+    height: 400px;
+    background:rgba(67, 62, 131, 0.719) ;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid blue;
+    color: white;
+}
+.formato h3{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+.datosing{
+    width: 100%;
+    border: 1px solid blue;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    
+    font-size: 14px;
+    font-weight: bold;
+}
+.boton{
+    width: 100%;
+    height: 40px;
+    background: blue;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.formato p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.formato a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.formato a:hover{
+    text-decoration: underline;
+}
+
+
